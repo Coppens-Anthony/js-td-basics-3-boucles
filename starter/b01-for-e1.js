@@ -23,8 +23,21 @@ EXEMPLE 1 :
 */
 
 // 1°) sans boucle : Écrivez ici toutes les instructions à la main, une par une
-
+let a = 1;
+let b = 2;
+let c = 3;
+let d = 4;
+let e = 5;
+let f = 6;
+let g = 7;
+let h = 8;
+let i = 9;
+let j = 10;
+console.log(a,b,c,d,e,f,g,h,i,j);
 // 2°) avec boucle FOR : Écrivez ici le code de la boucle FOR
+for (let i= 0; i <= 10; i++ ){
+    console.log(i);
+}
 
 // N.B. TABLE D'ÉVOLUTION DES VARIABLES :
 //   nbre      nbre < =10           console.log(nbre)        nbre++
